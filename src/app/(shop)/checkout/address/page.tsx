@@ -2,6 +2,7 @@ import { Title } from '@/components';
 import { AddressForm } from './ui/AddressForm';
 import { getCountries, getUserAddress } from '@/actions';
 import { auth } from '@/auth.config';
+import { UserAddress } from '@/interfaces';
 
 export default async function AddressPage() {
 
